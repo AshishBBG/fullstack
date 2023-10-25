@@ -8,6 +8,6 @@
 * Flexbox
 
 _Output Image_
-[![Output image](./output.png)
+[![Output image](./images/output.png)
 ](https://seo-masterpage.netlify.app/ "click to visit")
 

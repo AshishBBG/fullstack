@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.logo{
+    height: 35px;
+    /* margin-left: 3%;  */
+}
+
+.nav-bar{
+    /* border: 1px solid; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+.nav-items{
+    /* border: 1px solid; */
+    display: flex;
+    list-style: none;
+    font-weight: 600; 
+    gap: 60px;
+}
+
+.search-input{
+    text-align: center;
+    width: 7.5rem;
+    font-size: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 3px 0; 
+    margin-left: 10px;
+}
+
+li:nth-child(1)::after{
+    content: '';
+    display: inline-block;
+    position: relative;
+    border-bottom: 2px solid;
+    bottom: -5px;
+    width: 35px;
+    right: 39px;
+}
+
+/* main content right and left  */
+.main-section{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    /* text-align: center; */
+}
+
+/* left section */
+
+.left-side{
+    width: 34%;
+    /* border: 1px solid; */
+}
+
+.main-img{
+    width: 20rem;
+}
+
+.square-img{
+    width: 15rem;
+    position: absolute;
+    left: 218px;
+    bottom:43px;
+    z-index: -1;
+}
+
+.star-img{
+    width: 29px;
+    position: relative;
+    bottom: -34px;
+    left: 16%;
+}
+
+/* right section  */
+
+.right-side{
+    width: 45%;
+    /* border: 1px solid; */
+    height: 77vh;
+}
+
+.globe-img{
+    height: 3rem;
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+
+.star-img:nth-child(2){
+    width: 40px ;
+    left: 500px;
+    top: 20px;
+}
+
+.right-heading{
+    font-family: system-ui;
+    font-size: 53px;
+    margin-top: 20px;
+}
+.right-side > p{
+    text-align: center;
+    font-size: 10px;
+    color: #000000b3;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+
+.connect-btn{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.connect-btn button{
+    border-radius: 10px;
+    padding: 2px 13px;
+    border : 2px solid #000000;
+
+}
+
+.email-btn{
+    background-color: #ffffff;
+    margin-right: 18px;
+    color: #00000096;
+}
+
+.join-btn{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+/* right side footer section */
+.contact-info{
+    margin-top: 105px;
+}
+
+.contact-info img{
+    width: 25px;
+    margin-right: 18px;
+}
+
+.contact-info p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #00000096;
+}
+
+.contact-footer{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+
+}

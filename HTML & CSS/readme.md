@@ -4,7 +4,7 @@
 
 ## project 1
 _Output Image_
-[![Output image](./Seo_master_Page/output.png)
+[![Output image](./Seo_master_Page/images/output.png)
 ](https://seo-masterpage.netlify.app/ "click to visit")
 
 ## project 2
