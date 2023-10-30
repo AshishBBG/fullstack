@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    /* border: 1px solid; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    /* width: 100%;
+    padding-top: 7rem;
+    margin:0 20%; */
+    background: url("./images/coc-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    /* border: 1px solid; */
+    margin: 100px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-whole{
+    /* border: 1px solid; */
+    height: 29.1rem;
+    width: 15.7rem;
+    text-align: center;
+    margin-bottom: 8rem;
+    box-shadow: 11px 51px 20px -17px black;
+}
+
+.img1-container{
+    /* border: 1px solid; */
+    background: url("./images/barbarian-bg.jpg") no-repeat;
+}
+
+.img1{
+    height: 17rem;
+    position: relative;
+    bottom: 54px;
+    right: 61px;
+}
+
+.img-w-h{
+    width: 251px;
+    height: 202px;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-part2{
+    padding-top: 2.5rem;
+    background-color: #fff;
+    padding-bottom: 1rem; 
+}
+
+
+.img-part2-num{
+    font-size: 1.5rem;
+}
+
+.img-part2 p {
+    padding: 19px 0;
+    color: #81818194;
+    
+}
+
+.desc{
+    font-size: 10px;
+}
+
+.img-part3-container{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0 0 10px 10px;
+    color: #f1efea;    
+    /* background: #ec9b3b; */
+  
+}
+.img-part3-container-barbian{
+    background: #ec9b3b;
+}
+
+.img1-part2-level{
+    color: #ec9b3b;
+}
+
+
+.img-part3{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    margin: 10px 0; 
+}
+
+.border{
+    border-right: 1px solid #12101133;
+}
+
+.img-part3-font{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: sans-serif;
+    
+}
+.img-part3-font sup{
+    font-size: 10px;
+}
+
+.img-part3-font-desc{
+    padding-top: 15px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+
+/* img 2 */
+.img2-container{
+    background: url("./images/archer-bg.jpg");
+}
+
+.img2{
+    height: 16rem;
+    position: relative;
+    bottom:30px; 
+    right: 36px;
+}
+
+.img2-part2-level{
+    color: #ee5487;
+}
+
+.img-part3-container-archer{
+    background: #ee5487;
+}
+
+
+/* img 3 */
+
+.img3-container{
+    background: url("./images/giant-bg.jpg");
+}
+
+.img3{
+    height: 17rem;
+    position: relative;
+    bottom:30px; 
+    right: 36px;
+}
+
+.img3-part2-level{
+    color: #f6901a;
+}
+
+.img-part3-container-giant{
+    background: #f6901a;
+}
+
+/* img 4 */
+.img4-container{
+    background:url("./images/goblin-bg.jpg");   
+
+}
+
+.img4{
+    height: 16rem;
+    position: relative;
+    bottom:20px; 
+    right: 55px;
+
+}
+
+.img4-part2-level{
+    color: #82bb30;
+}
+
+
+.img-part3-container-goblin{
+    background: #82bb30;
+}
+
+/* img 5 */
+.img5-container{
+    background:url("./images/wizard-bg.jpg");
+}
+
+.img5{
+    height: 15.5rem;
+    position: relative;
+    bottom:24px; 
+    right: 7px;
+}
+
+.img5-part2-level{
+    color: #4facff;
+}
+
+.img-part3-container-wizard{
+    background: #4facff;
+}
